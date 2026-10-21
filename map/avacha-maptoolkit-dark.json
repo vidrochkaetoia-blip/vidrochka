@@ -2289,7 +2289,7 @@
     "visibility": "visible"
    },
    "paint": {
-    "fill-color": "#08192A"
+    "fill-color": "#0B2338"
    }
   },
   {
@@ -2817,7 +2817,7 @@
     "visibility": "visible"
    },
    "paint": {
-    "fill-color": "#08192A"
+    "fill-color": "#0B2338"
    }
   },
   {
@@ -4110,11 +4110,11 @@
      1400,
      "rgba(120,140,162,0.18)",
      1800,
-     "rgba(140,165,190,0.24)",
+     "rgba(140,165,190,0.18)",
      2500,
-     "rgba(175,198,220,0.32)",
+     "rgba(175,198,220,0.24)",
      3200,
-     "rgba(205,222,238,0.4)"
+     "rgba(205,222,238,0.3)"
     ],
     "color-relief-opacity": [
      "interpolate",
@@ -4777,7 +4777,7 @@
     "visibility": "visible"
    },
    "paint": {
-    "fill-color": "#08192A"
+    "fill-color": "#0B2338"
    }
   },
   {
