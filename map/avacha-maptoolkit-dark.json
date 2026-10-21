@@ -2214,7 +2214,7 @@
     "visibility": "visible"
    },
    "paint": {
-    "background-color": "#1B3449"
+    "background-color": "#203B52"
    }
   },
   {
@@ -2289,7 +2289,7 @@
     "visibility": "visible"
    },
    "paint": {
-    "fill-color": "#0E2A42"
+    "fill-color": "#102E47"
    }
   },
   {
@@ -2394,7 +2394,7 @@
     "visibility": "visible"
    },
    "paint": {
-    "fill-color": "#1B3449"
+    "fill-color": "#203B52"
    }
   },
   {
@@ -2427,14 +2427,14 @@
       "commercial",
       "retail"
      ],
-     "#233D53",
+     "#29445B",
      [
       "allotments",
       "garden"
      ],
-     "#213B50",
+     "#264158",
      "quarry",
-     "#2A4258",
+     "#304960",
      "rgba(0,0,0,0)"
     ],
     "fill-opacity": 0.6
@@ -2489,8 +2489,8 @@
       "allotments",
       "garden"
      ],
-     "#213B50",
-     "#233D53"
+     "#264158",
+     "#29445B"
     ],
     "line-width": [
      "interpolate",
@@ -2633,18 +2633,18 @@
       "type"
      ],
      "wood",
-     "#172E42",
+     "#1C3449",
      "scrub",
-     "#192F44",
+     "#1E364B",
      "farmland",
-     "#20394E",
+     "#254056",
      "rock",
-     "#34495D",
+     "#3A5065",
      [
       "wetland",
       "tidalflat"
      ],
-     "#16324A",
+     "#1A3850",
      "rgba(0,0,0,0)"
     ],
     "fill-opacity": [
@@ -2741,7 +2741,7 @@
     "line-join": "round"
    },
    "paint": {
-    "line-color": "#20394E",
+    "line-color": "#254056",
     "line-width": [
      "interpolate",
      [
@@ -2817,7 +2817,7 @@
     "visibility": "visible"
    },
    "paint": {
-    "fill-color": "#0E2A42"
+    "fill-color": "#102E47"
    }
   },
   {
@@ -4110,11 +4110,11 @@
      1400,
      "rgba(120,140,162,0.18)",
      1800,
-     "rgba(150,175,200,0.22)",
+     "rgba(160,185,208,0.26)",
      2500,
-     "rgba(185,205,225,0.3)",
+     "rgba(195,213,230,0.35)",
      3200,
-     "rgba(215,230,242,0.36)"
+     "rgba(222,234,245,0.42)"
     ],
     "color-relief-opacity": [
      "interpolate",
@@ -4265,9 +4265,9 @@
     "visibility": "visible"
    },
    "paint": {
-    "hillshade-shadow-color": "#071526",
+    "hillshade-shadow-color": "#06142A",
     "hillshade-accent-color": "#0C1E33",
-    "hillshade-highlight-color": "#8DB0CE",
+    "hillshade-highlight-color": "#A6C3DB",
     "hillshade-illumination-direction": 315,
     "hillshade-exaggeration": [
      "interpolate",
@@ -4278,19 +4278,19 @@
       "zoom"
      ],
      4,
-     0.2,
+     0.24,
      7,
-     0.38,
+     0.44,
      9,
-     0.6,
+     0.68,
      11,
-     0.95,
+     1,
      13,
      1,
      15,
-     0.9,
+     0.95,
      18,
-     0.6
+     0.65
     ]
    }
   },
@@ -4777,7 +4777,7 @@
     "visibility": "visible"
    },
    "paint": {
-    "fill-color": "#0E2A42"
+    "fill-color": "#102E47"
    }
   },
   {
