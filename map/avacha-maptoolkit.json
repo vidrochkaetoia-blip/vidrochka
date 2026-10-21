@@ -3733,17 +3733,17 @@
      100,
      "rgba(200,208,216,0)",
      250,
-     "rgba(200,208,216,0.22)",
+     "rgba(200,208,216,0.14)",
      550,
-     "rgba(188,196,205,0.30)",
+     "rgba(188,196,205,0.18)",
      900,
-     "rgba(176,188,202,0.32)",
+     "rgba(176,188,202,0.2)",
      1300,
-     "rgba(150,176,204,0.34)",
+     "rgba(150,176,204,0.22)",
      1900,
-     "rgba(100,145,190,0.38)",
+     "rgba(100,145,190,0.26)",
      2600,
-     "rgba(40,100,160,0.42)"
+     "rgba(40,100,160,0.3)"
     ],
     "color-relief-opacity": [
      "interpolate",
@@ -3895,7 +3895,7 @@
    },
    "paint": {
     "hillshade-shadow-color": "#6F8FAB",
-    "hillshade-accent-color": "#A9BDCD",
+    "hillshade-accent-color": "#7F9FBC",
     "hillshade-highlight-color": "#FFFFFF",
     "hillshade-illumination-direction": 315,
     "hillshade-exaggeration": [
