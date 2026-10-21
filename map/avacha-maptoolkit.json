@@ -2542,6 +2542,10 @@
       "get",
       "type"
      ],
+     "wood",
+     "#BCC8D3",
+     "scrub",
+     "#CAD4DD",
      "farmland",
      "#D3DAE1",
      "rock",
@@ -2561,6 +2565,25 @@
      ],
      "rock",
      0.7,
+     [
+      "wood",
+      "scrub"
+     ],
+     [
+      "interpolate",
+      [
+       "linear"
+      ],
+      [
+       "zoom"
+      ],
+      7,
+      0.35,
+      10,
+      0.6,
+      13,
+      0.8
+     ],
      0.8
     ]
    }
@@ -2624,7 +2647,7 @@
    },
    "source": "mtk",
    "source-layer": "natural",
-   "minzoom": 12,
+   "minzoom": 10,
    "maxzoom": 22,
    "filter": [
     "in",
@@ -2640,7 +2663,7 @@
     ]
    ],
    "layout": {
-    "visibility": "none"
+    "visibility": "visible"
    },
    "paint": {
     "fill-pattern": [
@@ -2676,8 +2699,10 @@
      [
       "zoom"
      ],
+     10,
+     0.3,
      12,
-     0.4,
+     0.5,
      14.99,
      0.8,
      15,
@@ -3332,20 +3357,20 @@
       "zoom"
      ],
      8,
-     0.25,
-     10,
      0.35,
+     10,
+     0.5,
      13,
-     0.45,
+     0.6,
      14.5,
-     0.3,
+     0.4,
      15.5,
      0
     ],
     "raster-saturation": -1,
     "raster-hue-rotate": 0,
     "raster-brightness-max": 1,
-    "raster-brightness-min": 0.3
+    "raster-brightness-min": 0
    }
   },
   {
@@ -3784,7 +3809,7 @@
    "minzoom": 0,
    "maxzoom": 23,
    "layout": {
-    "visibility": "none"
+    "visibility": "visible"
    },
    "paint": {
     "hillshade-exaggeration": [
@@ -3806,7 +3831,7 @@
      18,
      0.039
     ],
-    "hillshade-shadow-color": "hsla(203, 70%, 38%, 0.3)",
+    "hillshade-shadow-color": "hsla(210, 35%, 40%, 0.3)",
     "hillshade-accent-color": "hsla(203, 70%, 38%, 0)",
     "hillshade-highlight-color": "hsla(44, 90%, 100%, 0)"
    }
@@ -3921,15 +3946,15 @@
      7,
      0.3,
      9,
-     0.42,
+     0.48,
      11,
-     0.65,
+     0.8,
      13,
-     0.75,
+     0.9,
      15,
-     0.6,
+     0.8,
      18,
-     0.4
+     0.5
     ]
    }
   },
