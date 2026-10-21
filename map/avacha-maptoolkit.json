@@ -2213,7 +2213,7 @@
     "visibility": "visible"
    },
    "paint": {
-    "background-color": "#E3EDF4"
+    "background-color": "#E8F1F6"
    }
   },
   {
@@ -2393,7 +2393,7 @@
     "visibility": "visible"
    },
    "paint": {
-    "fill-color": "#E3EDF4"
+    "fill-color": "#E8F1F6"
    }
   },
   {
@@ -3307,10 +3307,10 @@
     }
    },
    "source": "rocks",
-   "minzoom": 10,
+   "minzoom": 8,
    "maxzoom": 16,
    "layout": {
-    "visibility": "none"
+    "visibility": "visible"
    },
    "paint": {
     "raster-opacity": [
@@ -3321,23 +3321,21 @@
      [
       "zoom"
      ],
+     8,
+     0.25,
      10,
-     0.2,
-     11,
-     0.3,
-     12,
-     0.4,
+     0.35,
      13,
-     0.5,
+     0.45,
      14.5,
      0.3,
      15.5,
      0
     ],
+    "raster-saturation": -1,
     "raster-hue-rotate": 0,
-    "raster-saturation": 0,
     "raster-brightness-max": 1,
-    "raster-brightness-min": 0.2
+    "raster-brightness-min": 0.3
    }
   },
   {
@@ -3613,136 +3611,54 @@
    },
    "source": "mtk",
    "source-layer": "contours",
-   "minzoom": 11,
+   "minzoom": 8,
    "maxzoom": 23,
    "filter": [
-    "!=",
+    "all",
     [
-     "get",
-     "ele"
+     "!=",
+     [
+      "get",
+      "ele"
+     ],
+     0
     ],
-    0
+    [
+     "in",
+     [
+      "get",
+      "divisor"
+     ],
+     [
+      "literal",
+      [
+       500,
+       1000
+      ]
+     ]
+    ]
    ],
    "layout": {
     "line-cap": "round",
     "line-join": "round",
-    "visibility": "none"
+    "visibility": "visible"
    },
    "paint": {
-    "line-color": "hsla(210, 22%, 52%, 0.55)",
+    "line-color": "hsla(210, 10%, 62%, 0.35)",
     "line-width": [
      "interpolate",
      [
-      "exponential",
-      1.2
+      "linear"
      ],
      [
       "zoom"
      ],
-     11,
-     [
-      "case",
-      [
-       "in",
-       [
-        "get",
-        "divisor"
-       ],
-       [
-        "literal",
-        [
-         500,
-         1000
-        ]
-       ]
-      ],
-      0.25,
-      [
-       "in",
-       [
-        "get",
-        "divisor"
-       ],
-       [
-        "literal",
-        [
-         100,
-         200
-        ]
-       ]
-      ],
-      0.15,
-      [
-       "in",
-       [
-        "get",
-        "divisor"
-       ],
-       [
-        "literal",
-        [
-         0,
-         10,
-         20,
-         50
-        ]
-       ]
-      ],
-      0.08,
-      0
-     ],
+     8,
+     0.4,
+     12,
+     0.6,
      16,
-     [
-      "case",
-      [
-       "in",
-       [
-        "get",
-        "divisor"
-       ],
-       [
-        "literal",
-        [
-         500,
-         1000
-        ]
-       ]
-      ],
-      1.27,
-      [
-       "in",
-       [
-        "get",
-        "divisor"
-       ],
-       [
-        "literal",
-        [
-         100,
-         200
-        ]
-       ]
-      ],
-      0.77,
-      [
-       "in",
-       [
-        "get",
-        "divisor"
-       ],
-       [
-        "literal",
-        [
-         0,
-         10,
-         20,
-         50
-        ]
-       ]
-      ],
-      0.39,
-      0
-     ]
+     1
     ]
    }
   },
@@ -3978,8 +3894,8 @@
     "visibility": "visible"
    },
    "paint": {
-    "hillshade-shadow-color": "#3F74A3",
-    "hillshade-accent-color": "#6C9CC6",
+    "hillshade-shadow-color": "#6F8FAB",
+    "hillshade-accent-color": "#A9BDCD",
     "hillshade-highlight-color": "#FFFFFF",
     "hillshade-illumination-direction": 315,
     "hillshade-exaggeration": [
@@ -3991,19 +3907,19 @@
       "zoom"
      ],
      4,
-     0.125,
+     0.1,
      7,
-     0.25,
+     0.2,
      9,
-     0.55,
+     0.4,
      11,
-     0.9,
+     0.65,
      13,
-     1.0,
+     0.75,
      15,
-     0.8,
+     0.6,
      18,
-     0.5
+     0.4
     ]
    }
   },
