@@ -2427,17 +2427,102 @@
       "commercial",
       "retail"
      ],
-     "#D6DFE6",
+     "#D8E1E9",
      [
       "allotments",
       "garden"
      ],
-     "#DCE3E9",
+     "#DDE5EC",
      "quarry",
      "#C6CDD3",
      "rgba(0,0,0,0)"
     ],
-    "fill-opacity": 0.8
+    "fill-opacity": 0.6
+   }
+  },
+  {
+   "id": "nature_landuse_feather",
+   "type": "line",
+   "source": "mtk",
+   "source-layer": "landuse",
+   "minzoom": 8,
+   "filter": [
+    "all",
+    [
+     "==",
+     [
+      "geometry-type"
+     ],
+     "Polygon"
+    ],
+    [
+     "in",
+     [
+      "get",
+      "type"
+     ],
+     [
+      "literal",
+      [
+       "residential",
+       "industrial",
+       "commercial",
+       "retail",
+       "allotments",
+       "garden"
+      ]
+     ]
+    ]
+   ],
+   "layout": {
+    "visibility": "visible",
+    "line-join": "round"
+   },
+   "paint": {
+    "line-color": [
+     "match",
+     [
+      "get",
+      "type"
+     ],
+     [
+      "allotments",
+      "garden"
+     ],
+     "#DDE5EC",
+     "#D8E1E9"
+    ],
+    "line-width": [
+     "interpolate",
+     [
+      "linear"
+     ],
+     [
+      "zoom"
+     ],
+     8,
+     3,
+     12,
+     8,
+     15,
+     14
+    ],
+    "line-blur": [
+     "interpolate",
+     [
+      "linear"
+     ],
+     [
+      "zoom"
+     ],
+     8,
+     3,
+     12,
+     8,
+     15,
+     14
+    ],
+    "line-opacity": 0.5
    }
   },
   {
@@ -2552,7 +2637,7 @@
      "scrub",
      "#DCE4EB",
      "farmland",
-     "#D3DAE1",
+     "#D7E0E8",
      "rock",
      "#AEB8C3",
      [
@@ -2584,6 +2669,8 @@
        "scrub"
       ],
       0.2,
+      "farmland",
+      0.55,
       0.8
      ],
      10,
@@ -2600,6 +2687,8 @@
        "scrub"
       ],
       0.35,
+      "farmland",
+      0.55,
       0.8
      ],
      13,
@@ -2616,9 +2705,74 @@
        "scrub"
       ],
       0.5,
+      "farmland",
+      0.6,
       0.8
      ]
     ]
+   }
+  },
+  {
+   "id": "nature_farmland_feather",
+   "type": "line",
+   "source": "mtk",
+   "source-layer": "natural",
+   "minzoom": 8,
+   "filter": [
+    "all",
+    [
+     "==",
+     [
+      "geometry-type"
+     ],
+     "Polygon"
+    ],
+    [
+     "==",
+     [
+      "get",
+      "type"
+     ],
+     "farmland"
+    ]
+   ],
+   "layout": {
+    "visibility": "visible",
+    "line-join": "round"
+   },
+   "paint": {
+    "line-color": "#D7E0E8",
+    "line-width": [
+     "interpolate",
+     [
+      "linear"
+     ],
+     [
+      "zoom"
+     ],
+     8,
+     3,
+     12,
+     8,
+     15,
+     14
+    ],
+    "line-blur": [
+     "interpolate",
+     [
+      "linear"
+     ],
+     [
+      "zoom"
+     ],
+     8,
+     3,
+     12,
+     8,
+     15,
+     14
+    ],
+    "line-opacity": 0.5
    }
   },
   {
