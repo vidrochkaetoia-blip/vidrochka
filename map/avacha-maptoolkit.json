@@ -2213,7 +2213,7 @@
     "visibility": "visible"
    },
    "paint": {
-    "background-color": "#E8F1F6"
+    "background-color": "#E4EEF4"
    }
   },
   {
@@ -2393,7 +2393,7 @@
     "visibility": "visible"
    },
    "paint": {
-    "fill-color": "#E8F1F6"
+    "fill-color": "#E4EEF4"
    }
   },
   {
@@ -2544,7 +2544,7 @@
      "farmland",
      "#D5DEE5",
      "rock",
-     "#BCC6CE",
+     "#C4CDD5",
      [
       "wetland",
       "tidalflat"
@@ -2552,7 +2552,16 @@
      "#D9E4EC",
      "rgba(0,0,0,0)"
     ],
-    "fill-opacity": 0.8
+    "fill-opacity": [
+     "match",
+     [
+      "get",
+      "type"
+     ],
+     "rock",
+     0.4,
+     0.8
+    ]
    }
   },
   {
@@ -3894,7 +3903,7 @@
     "visibility": "visible"
    },
    "paint": {
-    "hillshade-shadow-color": "#6F8FAB",
+    "hillshade-shadow-color": "#5E89B3",
     "hillshade-accent-color": "#7F9FBC",
     "hillshade-highlight-color": "#FFFFFF",
     "hillshade-illumination-direction": 315,
@@ -3907,19 +3916,19 @@
       "zoom"
      ],
      4,
-     0.1,
+     0.11,
      7,
-     0.2,
+     0.22,
      9,
-     0.4,
+     0.48,
      11,
-     0.65,
-     13,
      0.75,
+     13,
+     0.85,
      15,
-     0.6,
+     0.7,
      18,
-     0.4
+     0.45
     ]
    }
   },
