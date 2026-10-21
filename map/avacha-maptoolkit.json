@@ -2558,33 +2558,61 @@
      "rgba(0,0,0,0)"
     ],
     "fill-opacity": [
-     "match",
+     "interpolate",
      [
-      "get",
-      "type"
-     ],
-     "rock",
-     0.7,
-     [
-      "wood",
-      "scrub"
+      "linear"
      ],
      [
-      "interpolate",
+      "zoom"
+     ],
+     7,
+     [
+      "match",
       [
-       "linear"
+       "get",
+       "type"
       ],
+      "rock",
+      0.7,
       [
-       "zoom"
+       "wood",
+       "scrub"
       ],
-      7,
       0.2,
-      10,
-      0.35,
-      13,
-      0.5
+      0.8
      ],
-     0.8
+     10,
+     [
+      "match",
+      [
+       "get",
+       "type"
+      ],
+      "rock",
+      0.7,
+      [
+       "wood",
+       "scrub"
+      ],
+      0.35,
+      0.8
+     ],
+     13,
+     [
+      "match",
+      [
+       "get",
+       "type"
+      ],
+      "rock",
+      0.7,
+      [
+       "wood",
+       "scrub"
+      ],
+      0.5,
+      0.8
+     ]
     ]
    }
   },
